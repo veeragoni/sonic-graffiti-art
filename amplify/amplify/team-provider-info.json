@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sonicgraffitiamplify-dev-175630-authRole",
+      "UnauthRoleArn": "arn:aws:iam::995254579136:role/amplify-sonicgraffitiamplify-dev-175630-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::995254579136:role/amplify-sonicgraffitiamplify-dev-175630-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-sonicgraffitiamplify-dev-175630-deployment",
+      "UnauthRoleName": "amplify-sonicgraffitiamplify-dev-175630-unauthRole",
+      "StackName": "amplify-sonicgraffitiamplify-dev-175630",
+      "StackId": "arn:aws:cloudformation:us-east-2:995254579136:stack/amplify-sonicgraffitiamplify-dev-175630/3b0396e0-c807-11ec-824e-06e7e61c9eb0",
+      "AmplifyAppId": "d1k7hyuu6mpxvi"
+    },
+    "categories": {
+      "auth": {
+        "sonicgraffitiamplifyf08566d2": {}
+      }
+    }
+  }
+}

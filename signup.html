@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.shoelace.style/1.0.0-beta24/shoelace.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="signUpDiv" class="container">
+        <h1>
+            SignUp for Real-time Audio Transcription
+        </h1>
+
+        <div id="error" class="isa_error"></div>
+
+        <div class="row">
+            <div class="col">
+                <label>Email:</label>
+                <input type="text" id="email_id" placeholder="EMAIL ID" value="" />
+
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="PASSWORD" value="" />
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="signup-button" class="button-xl" title="login">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="verificationDiv" class="container" style="display: none;">
+        <div class="row">
+            <div class="col">
+                <label>Email:</label>
+                <input type="text" id="verification_email_id" placeholder="VERIFICATION EMAIL ID" value="" />
+                <label>Check your email and confirm verification code:</label>
+                <input type="text" id="verification_code" placeholder="VERIFICATION CODE" value="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="confirm-signup-button" class="button-xl" title="login">
+                    Confirm Sign Up
+                </button>
+            </div>
+        </div>
+
+        <label id="signUpstatus"></label>
+
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dist/sonic-graffiti.js"></script>
+</body>
+
+</html>

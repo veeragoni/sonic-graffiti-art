@@ -10,7 +10,26 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="loginDiv" class="container">
+        <div class="row">
+            <div class="col">
+                
+                <label>Email:</label>
+                <input type="text" id="email_id" placeholder="EMAIL ID" value="" />
+
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="PASSWORD" value="" />
+                
+                <button id="login-button" class="button-xl" title="login">
+                    Login
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="transcribeDiv" class="container" style="display: none;">
         <h1>
             Real-time Audio Transcription
         </h1>
@@ -18,23 +37,10 @@
             Using the <a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a> WebSocket API
         </p>
         <hr/>
-        <p>
-            Create an <a href="https://aws.amazon.com/free/">AWS Account</a>, attach the necessary <a
-                href="policy.json"> IAM policy</a>, and enter your Access Id and Secret Key below.
-        </p>
 
         <div id="error" class="isa_error"></div>
 
         <div class="row">
-            <div class="col">
-                <label>Access ID:</label>
-                <input type="password" id="access_id" placeholder="ACCESS ID" value="" />
-
-                <label>Secret Key:</label>
-                <input type="password" id="secret_key" placeholder="SECRET KEY" value="" />
-                <label>Session Token (if using MFA):</label>
-                <input type="password" id="session_token" placeholder="SESSION TOKEN" value="" />
-            </div>
             <div class="col">
                 <label>Language: </label>
                 <select id="language">
@@ -76,6 +82,9 @@
                 <button id="reset-button" class="button-xl button-secondary" title="Clear Transcript"> 
                     Clear Transcript
                 </button>
+                <button id="signout-button" class="button-xl" title="signout">
+                    Signout
+                </button>
                 <br>
                 <img id="giphy-image" />
             </div>
@@ -100,7 +109,7 @@
     </a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="dist/main.js"></script>
+    <script src="dist/sonic-graffiti.js"></script>
 </body>
 
 </html>

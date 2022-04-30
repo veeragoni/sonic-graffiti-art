@@ -8,7 +8,7 @@
     "url": "http://aws.amazon.com/"
   },
   "scripts": {
-    "build": "browserify lib/main.js -o dist/main.js -d"
+    "build": "browserify lib/main.js lib/auth-amplify.js -o dist/sonic-graffiti.js -d"
   },
   "keywords": [],
   "browserify": {
@@ -26,6 +26,9 @@
   "dependencies": {
     "@aws-sdk/eventstream-marshaller": "0.1.0-preview.2",
     "@aws-sdk/util-utf8-node": "0.1.0-preview.1",
+    "@babel/runtime": "^7.17.9",
+    "aws-amplify": "^4.3.20",
+    "aws-crt": "^1.12.1",
     "browserify": "^16.5.1",
     "local-web-server": "^3.0.7",
     "microphone-stream": "^5.0.1",
@@ -33,6 +36,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.10.2",
     "babelify": "^10.0.0"
   }
