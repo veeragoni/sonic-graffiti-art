@@ -6,6 +6,7 @@ body {
     height: 100%;
     display: table;
     background-color: black;
+    background-image: url(./images/light-medium.jpg);
   }
   
   @font-face {
