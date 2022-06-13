@@ -17,7 +17,12 @@
         "babelify",
         {
           "presets": [
-            "@babel/env"
+            "@babel/preset-env"
+          ],
+          "plugins": [
+            [
+              "@babel/transform-runtime"
+            ]
           ]
         }
       ]
@@ -29,10 +34,14 @@
     "@babel/runtime": "^7.17.9",
     "aws-amplify": "^4.3.20",
     "aws-crt": "^1.12.1",
+    "aws-sdk": "^2.1152.0",
     "browserify": "^16.5.1",
+    "html2canvas": "^1.4.1",
     "local-web-server": "^3.0.7",
     "microphone-stream": "^5.0.1",
-    "query-string": "^6.12.1"
+    "qrcode": "^1.5.0",
+    "query-string": "^6.12.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
