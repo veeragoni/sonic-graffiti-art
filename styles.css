@@ -56,7 +56,10 @@ body {
     font-variant: small-caps;
 }
 
-
+canvas {  /* or some other selector */
+  width: 160px;
+  height: 160px;
+}
 
 .neon {
     font-family: neon;
@@ -67,6 +70,7 @@ body {
     background: url(./images/background.jpg) center;
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
   }
   
   .flux {
@@ -78,6 +82,7 @@ body {
     background: url(./images/background.jpg) center;
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
   
   }
   
