@@ -61,6 +61,22 @@ canvas {  /* or some other selector */
   height: 160px;
 }
 
+
+.remars {
+  background: url(./images/background.jpg) center;
+  color: transparent;
+  background-clip: text;
+  font-size: 9vw;
+  line-height: 9vw;
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  @keyframes identifier {
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+
 .neon {
     font-family: neon;
     color: #FB4264;
