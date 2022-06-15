@@ -31,6 +31,11 @@ def lambda_handler(event, context):
     giphyUrl = data["data"][0]["images"]["downsized"]["url"]    
 
     print(giphyUrl)
+
+    # AWS Comprehend sentiment analysis
+    comprehend_response = comprehend.detect_sentiment(Text=voice_text, LanguageCode='en')
+    sentiment = comprehend_response['Sentiment']
+    print(sentiment)
     
     # Store in dynamoDB
     date=str(datetime.now()) 
@@ -40,15 +45,14 @@ def lambda_handler(event, context):
                 'uuid': uuid.uuid1().hex,
                 'voice-search': voice_text,
                 'gif-image': giphyUrl,
+                'sentiment': sentiment,
                 'timestamp': date
             }
             )
     except Exception as e:
         raise Exception('Error adding text', e)
     
-    # AWS Comprehend sentiment analysis
-    comprehend_response = comprehend.detect_sentiment(Text=voice_text, LanguageCode='en')
-    print(comprehend_response['Sentiment'])
+    
     
     
     return {
@@ -59,6 +63,7 @@ def lambda_handler(event, context):
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET,PUT"
         },
         "body": json.dumps({
-            "url": giphyUrl
+            "url": giphyUrl,
+            "sentiment": comprehend_response['Sentiment']
         })
     }
