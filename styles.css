@@ -57,8 +57,8 @@ body {
 }
 
 canvas {  /* or some other selector */
-  width: 160px;
-  height: 160px;
+  width: 160px !important;
+  height: 160px !important;
 }
 
 
