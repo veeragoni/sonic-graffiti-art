@@ -29,7 +29,13 @@
     ]
   },
   "dependencies": {
+    "@aws-crypto/sha256-browser": "^2.0.1",
     "@aws-sdk/eventstream-marshaller": "0.1.0-preview.2",
+    "@aws-sdk/hash-node": "^3.110.0",
+    "@aws-sdk/protocol-http": "^3.110.0",
+    "@aws-sdk/s3-request-presigner": "^3.110.0",
+    "@aws-sdk/url-parser": "^3.110.0",
+    "@aws-sdk/util-format-url": "^3.110.0",
     "@aws-sdk/util-utf8-node": "0.1.0-preview.1",
     "@babel/runtime": "^7.17.9",
     "aws-amplify": "^4.3.20",
