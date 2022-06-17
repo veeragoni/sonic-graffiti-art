@@ -11,37 +11,37 @@ body {
 
   @font-face {
     font-family: 'SOUPER3';
-    src: url(./fonts/SOUPER3.ttf);
+    src: local('SOUPER3'), url('./fonts/SOUPER3.ttf') format('truetype');
   }
 
   @font-face {
     font-family: 'Road Rage';
-    src: url(./fonts/Road_Rage.otf);
+    src: local('Road Rage'), url('./fonts/Road_Rage.otf') format('opentype');
   }
 
   @font-face {
     font-family: 'gang bang crime';
-    src: url(./fonts/gang_bang_crime.ttf);
+    src: local('gang bang crime'), url('./fonts/gang_bang_crime.ttf') format('truetype');
   }
   @font-face {
     font-family: 'Forty Script';
-    src: url(./fonts/FortyScript.ttf);
+    src: local('Forty Script'), url('./fonts/FortyScript.ttf') format('truetype');
   }
   @font-face {
     font-family: 'DJ Gross';
-    src: url(./fonts/DJGROSS.ttf);
+    src: local('DJ Gross'), url('./fonts/DJGROSS.ttf') format('truetype');
   }
   @font-face {
     font-family: 'PaintCans';
-    src: url(./fonts/PaintCans.otf);
+    src: local('PaintCans'), url('./fonts/PaintCans.otf') format('opentype');
   }
   @font-face {
     font-family: 'RaseBasic';
-    src: url(./fonts/RaseBasic.otf);
+    src: local('RaseBasic'), url('./fonts/RaseBasic.otf') format('opentype');
   }
   @font-face {
     font-family: 'WildStyle';
-    src: url(./fonts/WildBasic.otf);
+    src: local('WildStyle'), url('./fonts/WildStyle.otf') format('opentype');
   }
   
   .container {
