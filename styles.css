@@ -8,10 +8,40 @@ body {
     background-color: black;
     background-image: url(./images/light-medium.jpg);
   }
-  
+
   @font-face {
-    font-family: neon;
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+    font-family: 'SOUPER3';
+    src: url(./fonts/SOUPER3.ttf);
+  }
+
+  @font-face {
+    font-family: 'Road Rage';
+    src: url(./fonts/Road_Rage.otf);
+  }
+
+  @font-face {
+    font-family: 'gang bang crime';
+    src: url(./fonts/gang_bang_crime.ttf);
+  }
+  @font-face {
+    font-family: 'Forty Script';
+    src: url(./fonts/FortyScript.ttf);
+  }
+  @font-face {
+    font-family: 'DJ Gross';
+    src: url(./fonts/DJGROSS.ttf);
+  }
+  @font-face {
+    font-family: 'PaintCans';
+    src: url(./fonts/PaintCans.otf);
+  }
+  @font-face {
+    font-family: 'RaseBasic';
+    src: url(./fonts/RaseBasic.otf);
+  }
+  @font-face {
+    font-family: 'WildStyle';
+    src: url(./fonts/WildBasic.otf);
   }
   
   .container {

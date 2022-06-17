@@ -47,7 +47,6 @@
     "html2canvas": "^1.4.1",
     "local-web-server": "^3.0.7",
     "microphone-stream": "^5.0.1",
-    "puppeteer": "^14.4.0",
     "qrcode": "^1.5.0",
     "query-string": "^6.12.1",
     "uuid": "^8.3.2"
