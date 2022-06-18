@@ -41,7 +41,7 @@ body {
   }
   @font-face {
     font-family: 'WildStyle';
-    src: local('WildStyle'), url('./fonts/WildStyle.otf') format('opentype');
+    src: local('WildStyle'), url('./fonts/WildBasic.otf') format('opentype');
   }
   
   .container {
