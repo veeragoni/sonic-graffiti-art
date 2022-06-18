@@ -6,7 +6,7 @@ body {
     height: 100%;
     display: table;
     background-color: black;
-    background-image: url(./images/light-medium.jpg);
+    text-align: center;
   }
 
   @font-face {
@@ -45,14 +45,27 @@ body {
   }
   
   .container {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    /* text-align: center;
+    vertical-align: middle; */
+    flex-direction: column;
   }
 
 #transcript {
     margin: 30px 0;
     white-space: pre-wrap;
+}
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#voicetext{
+
+  flex: 1 1 auto;
+  overflow-y: scroll;
+  padding: 2%;
+
 }
 
 #start-button,
@@ -98,7 +111,7 @@ canvas {  /* or some other selector */
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 9vw;
-  line-height: 9vw;
+  line-height: 20vh;
   animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
   @keyframes identifier {
     100% {
