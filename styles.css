@@ -62,6 +62,9 @@ body {
   bottom: 0;
   width: 100%;
 }
+#header{
+  padding: 30px;
+}
 #voicetext{
 
   flex: 1 1 auto;
@@ -110,6 +113,7 @@ canvas {  /* or some other selector */
   -webkit-background-clip: text;
   font-size: 9vw;
   line-height: 20vh;
+  padding: 100px;
   animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
   @keyframes identifier {
     100% {
