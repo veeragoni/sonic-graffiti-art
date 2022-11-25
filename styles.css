@@ -168,7 +168,7 @@ canvas {  /* or some other selector */
 }
 
 
-.remars {
+div.remars {
   background: url(./images/background.jpg) center;
   filter: drop-shadow(10px 0px 10px #000);
   color: transparent;
@@ -184,6 +184,31 @@ canvas {  /* or some other selector */
     }
   }
 }
+
+
+div.solidg {
+  margin-bottom: .5em;
+  font-family: Bomber Squad, sans-serif;
+  font-size: 5rem;
+  color: #e0354d; 
+
+  position: relative;
+  background-image: linear-gradient(135deg, #fa691a 0%, #d72263 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+div.solidg::before{
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+text-shadow: -1px -1px 0 rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.25), 3px 3px 3px rgba(0,0,0,.25), 10px 10px 20px rgba(0,0,0,.5), 20px 40px 40px rgb(0,0,0); 
+}
+
+
 
 
 .neon {
