@@ -12,38 +12,8 @@ body {
   }
 
   @font-face {
-    font-family: 'SOUPER3';
-    src: local('SOUPER3'), url('./fonts/SOUPER3.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Road Rage';
-    src: local('Road Rage'), url('./fonts/Road_Rage.otf') format('opentype');
-  }
-
-  @font-face {
-    font-family: 'gang bang crime';
-    src: local('gang bang crime'), url('./fonts/gang_bang_crime.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'Forty Script';
-    src: local('Forty Script'), url('./fonts/FortyScript.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'DJ Gross';
-    src: local('DJ Gross'), url('./fonts/DJGROSS.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'PaintCans';
-    src: local('PaintCans'), url('./fonts/PaintCans.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'RaseBasic';
-    src: local('RaseBasic'), url('./fonts/RaseBasic.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'WildStyle';
-    src: local('WildStyle'), url('./fonts/WildBasic.otf') format('opentype');
+    font-family: 'Graffiti Youth';
+    src: local('Graffiti Youth'), url('./fonts/Graffiti_Youth.otf') format('opentype');
   }
   
   .container {
@@ -108,6 +78,7 @@ canvas {  /* or some other selector */
 
 .remars {
   background: url(./images/background.jpg) center;
+  filter: drop-shadow(10px 0px 10px #000);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
