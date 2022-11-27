@@ -16,20 +16,8 @@ body {
     src: local('Graffiti Youth'), url('./fonts/Graffiti_Youth.otf') format('opentype');
   }
   @font-face {
-    font-family: 'Graffiti Youth';
-    src: local('Graffiti Youth'), url('./fonts/Graffiti_Youth.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'Graffiti Youth';
-    src: local('Graffiti Youth'), url('./fonts/Graffiti_Youth.otf') format('opentype');
-  }
-  @font-face {
     font-family: 'Muthiara';
     src: local('Muthiara'), url('./fonts/Muthiara.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'Bombies';
-    src: local('Bombies'), url('./fonts/Bombies.otf') format('opentype');
   }
   @font-face {
     font-family: 'Blezer';
@@ -37,11 +25,7 @@ body {
   }
   @font-face {
     font-family: 'Bomber Squad';
-    src: local('Bomber Squad'), url('./fonts/Graffiti_Squad.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'Bombero';
-    src: local('Bombero'), url('./fonts/Bombero.otf') format('opentype');
+    src: local('Bomber Squad'), url('./fonts/Bomber_Squad.otf') format('opentype');
   }
   @font-face {
     font-family: 'Bombsky';
@@ -50,10 +34,6 @@ body {
   @font-face {
     font-family: 'Boom Boom';
     src: local('Boom Boom'), url('./fonts/Boom\ Boom.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'Bradwall';
-    src: local('Bradwall'), url('./fonts/Bradwall.otf') format('opentype');
   }
   @font-face {
     font-family: 'Brenza';
@@ -72,12 +52,8 @@ body {
     src: local('Bubble Boom'), url('./fonts/Bubble\ Boom.otf') format('opentype');
   }
   @font-face {
-    font-family: 'Gemstone';
-    src: local('Gemstone'), url('./fonts/GemstoneRegular.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'Graffiti Rebel';
-    src: local('Graffiti Rebel'), url('./fonts/Graffiti\ Rebel.otf') format('opentype');
+    font-family: 'GemstoneRegular';
+    src: local('GemstoneRegular'), url('./fonts/GemstoneRegular.otf') format('opentype');
   }
   @font-face {
     font-family: 'Rebeland';
@@ -94,16 +70,6 @@ body {
   @font-face {
     font-family: 'Street Hustle';
     src: local('Street Hustle'), url('./fonts/Street\ Hustle.otf') format('opentype');
-  }
-
-  @font-face {
-    font-family: 'Sweet Blood';
-    src: local('Sweet Blood'), url('./fonts/Sweet\ Blood.otf') format('opentype');
-  }
-
-  @font-face {
-    font-family: 'Urban Rebel';
-    src: local('Urban Rebel'), url('./fonts/Urban\ Rebel.otf') format('opentype');
   }
 
   
