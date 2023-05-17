@@ -12,39 +12,67 @@ body {
   }
 
   @font-face {
-    font-family: 'SOUPER3';
-    src: local('SOUPER3'), url('./fonts/SOUPER3.ttf') format('truetype');
+    font-family: 'Graffiti Youth';
+    src: local('Graffiti Youth'), url('./fonts/Graffiti_Youth.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Muthiara';
+    src: local('Muthiara'), url('./fonts/Muthiara.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Blezer';
+    src: local('Blezer'), url('./fonts/Blezer.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Bomber Squad';
+    src: local('Bomber Squad'), url('./fonts/Bomber_Squad.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Bombsky';
+    src: local('Bombsky'), url('./fonts/Bombsky.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Boom Boom';
+    src: local('Boom Boom'), url('./fonts/Boom\ Boom.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Brenza';
+    src: local('Brenza'), url('./fonts/Brenza.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Brione';
+    src: local('Brione'), url('./fonts/Brione.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Brockers';
+    src: local('Brockers'), url('./fonts/Brockers.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Bubble Boom';
+    src: local('Bubble Boom'), url('./fonts/Bubble\ Boom.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'GemstoneRegular';
+    src: local('GemstoneRegular'), url('./fonts/GemstoneRegular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Rebeland';
+    src: local('Rebeland'), url('./fonts/Rebeland.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Southsider';
+    src: local('Southsider'), url('./fonts/Southsider.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Streamzy';
+    src: local('Streamzy'), url('./fonts/Streamzy.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Street Hustle';
+    src: local('Street Hustle'), url('./fonts/Street\ Hustle.otf') format('opentype');
   }
 
-  @font-face {
-    font-family: 'Road Rage';
-    src: local('Road Rage'), url('./fonts/Road_Rage.otf') format('opentype');
-  }
-
-  @font-face {
-    font-family: 'gang bang crime';
-    src: local('gang bang crime'), url('./fonts/gang_bang_crime.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'Forty Script';
-    src: local('Forty Script'), url('./fonts/FortyScript.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'DJ Gross';
-    src: local('DJ Gross'), url('./fonts/DJGROSS.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'PaintCans';
-    src: local('PaintCans'), url('./fonts/PaintCans.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'RaseBasic';
-    src: local('RaseBasic'), url('./fonts/RaseBasic.otf') format('opentype');
-  }
-  @font-face {
-    font-family: 'WildStyle';
-    src: local('WildStyle'), url('./fonts/WildBasic.otf') format('opentype');
-  }
+  
   
   .container {
     display: flex;
@@ -106,21 +134,47 @@ canvas {  /* or some other selector */
 }
 
 
-.remars {
+div.remars {
   background: url(./images/background.jpg) center;
+  filter: drop-shadow(10px 0px 10px #000);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 9vw;
   line-height: 20vh;
   padding: 100px;
-  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  /* animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
   @keyframes identifier {
     100% {
       transform: scale(1);
     }
-  }
+  } */
 }
+
+
+div.solidg {
+  margin-bottom: .5em;
+  font-family: Bomber Squad, sans-serif;
+  font-size: 5rem;
+  color: #e0354d; 
+
+  position: relative;
+  background-image: linear-gradient(135deg, #fa691a 0%, #d72263 50%);
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+}
+
+
+div.solidg::before{
+content: attr(data-text);
+position: absolute;
+/* top: 0; */
+/* left: 0; */
+/* z-index: -1; */
+text-shadow: -1px -1px 0 rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.25), 3px 3px 3px rgba(0,0,0,.25), 10px 10px 20px rgba(0,0,0,.5), 20px 40px 40px rgb(0,0,0); 
+}
+
+
 
 
 .neon {
